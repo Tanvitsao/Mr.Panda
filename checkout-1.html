@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="images/shortcut_icon_panda.ico">
+    <meta name="discription" content="Mr.Panda" />
+    <meta name="keywords" content="Mr.Panda, 熊貓先生, 熊貓先生早午餐" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    
+    <title>Mr.Panda</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheets/all.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="/images/panda-logo.svg" height="40" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="index.html">首頁</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="products.html">早餐</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="login.html">登入</a>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <a class="carts" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section>
+            <div class="row checkout">
+                <div class="col-lg-8 bg-primary p-5 mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-6 h3 text-white">付款</div>
+                        <div class="col-6">
+                            <div class="text-white steps"></div>
+                            <div class="text-white d-flex justify-content-between" style="position: relative">
+                                <i class="fas fa-check-circle"></i>
+                                <i class="fas fa-circle text-highlight"></i>
+                                <i class="fas fa-circle"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="text-white">
+                        <div class="form-group">
+                            <label for="card">信用卡卡號</label>
+                            <div class="input-group mb-3">
+                                <input type="text" id="card" class="form-control" placeholder="9012-3456-7890-1234" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <span class="input-group-text" id="basic-addon2"><i class="far fa-credit-card"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="">有效日期</label>
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <select id="" class="form-control rounded-0">
+                                        <option selected>月</option>
+                                        <option value="">01</option>
+                                        <option value="">02</option>
+                                        <option value="">03</option>
+                                        <option value="">04</option>
+                                        <option value="">05</option>
+                                        <option value="">06</option>
+                                        <option value="">07</option>
+                                        <option value="">08</option>
+                                        <option value="">09</option>
+                                        <option value="">10</option>
+                                        <option value="">11</option>
+                                        <option value="">12</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <select id="" class="form-control">
+                                        <option selected>年</option>
+                                        <option>2019</option>
+                                        <option>2020</option>
+                                        <option>2021</option>
+                                        <option>2022</option>
+                                        <option>2023</option>
+                                        <option>2024</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <input type="text" class="form-control" placeholder="安全碼">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="">持卡人姓名</label>
+                                <input type="text" class="form-control" placeholder="WANG, SIAO-MING">
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <a href="checkout-2.html" class="btn btn-highlight">下一步</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-4 details">
+                    <div class="p-3 border border-secondary text-secondary">
+                        <div class="h4 text-center">訂單明細</div>
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td>小計</td>
+                                    <td class="text-right">NT$ 980</td>
+                                </tr>
+                                <tr>
+                                    <td>外送費</td>
+                                    <td class="text-right">NT$ 60</td>
+                                </tr>
+                                <tr class="h5">
+                                    <td>總計</td>
+                                    <td class="text-right">NT$ 1,040</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="p-3 border border-secondary text-secondary my-3">
+                        <div class="h4 text-center mb-3">購物清單</div>
+                        <div class="row mb-2">
+                            <div class="col-6">
+                                <img class="image-size" src="https://images.unsplash.com/photo-1441986060468-324610e6e6a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                                    alt="">
+                            </div>
+                            <div class="col-6">
+                                <div>
+                                    <p class="mb-0">濃郁起司雞腿堡</p>
+                                    <p>$ 220</p>
+                                    <p>x2</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-6">
+                                <img class="image-size" src="https://images.unsplash.com/photo-1441986060468-324610e6e6a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                                    alt="">
+                            </div>
+                            <div class="col-6">
+                                <div>
+                                    <p class="mb-0">濃郁起司雞腿堡</p>
+                                    <p>$ 220</p>
+                                    <p>x3</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="bg-secondary py-md-4 py-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/panda-logo.svg" width="200" class="mb-2" alt="">
+                        <p class="mb-1">02-2234-5678</p>
+                        <p class="mb-1">mrpanda@gmail.com</p>
+                        <p class="mb-1">320 桃園市中壢區新中北路</p>
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-md-end align-items-md-end">
+                        <div class="mt-2">
+                            <a href="#"><i class="fab fa-facebook fa-2x mr-2"></i></a>
+                            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                            <p class="mb-1">© 2019 Mr. Panda All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,7 @@
+.products {
+    .active, .product:hover {
+        color: $primary;
+        background-color: $light;
+        border-color: $light;
+    }
+}

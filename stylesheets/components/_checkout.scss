@@ -1,0 +1,20 @@
+.checkout {
+    .image-size {
+        max-width: 140px;
+    }
+    .steps {
+        border-bottom: 1px solid #eee;
+        position: absolute;
+        top: 8px;
+        left: 16px;
+        width: 90%;
+    }
+    .details {
+        display: block;
+    }
+    @media (max-width: 992px) {
+        .details {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.main {
+    //item card
+    .card {
+        position: relative;
+    }
+    .today {
+        -webkit-writing-mode: vertical-lr;
+        writing-mode: vertical-lr;
+        background-color: $highlight;
+        color: $primary;
+        position: absolute;
+        top: 0px;
+        left: 30px;
+        padding: 5px;
+        letter-spacing: 5px;
+    }
+    .liked {
+        position: absolute;
+        top: 15px;
+        right: 30px;
+        color: $highlight;
+    }
+
+
+    .bg-cover {
+        background-position: center center;
+        background-size: cover;
+    }
+    .section {
+        margin-top: -24px;
+        margin-bottom: -24px;
+    }   
+    .section-image {
+        min-height: 400px;
+    }
+    @media (max-width: 768px) {
+        .section {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }   
+    }
+}

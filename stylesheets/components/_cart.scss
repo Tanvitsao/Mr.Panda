@@ -1,0 +1,24 @@
+.cart {
+    .number-size {
+        width: 38px;
+    }
+    .image-size {
+        max-width: 210px;
+    }
+    .delete-display {
+        display: none;
+    }
+    @media (min-width: 768px) {
+        .image-size {
+            max-width: 160px;
+        }
+        .delete-display {
+            display: block;
+        }  
+    }
+    @media (min-width: 992px) {
+        .image-size {
+            max-width: 150px;
+        }   
+    }
+}
