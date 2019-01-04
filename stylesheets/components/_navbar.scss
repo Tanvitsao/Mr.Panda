@@ -1,6 +1,22 @@
 .navbar {
     .active {
         color: $primary;
-        border-bottom: 1px solid $primary;
+        background-color: $light;
+    }
+    .cart-icon-display {
+        display: none !important;
+    }
+    @media (min-width: 992px) {
+        .active {
+            color: $primary;
+            border-bottom: 1px solid $primary;
+            background-color: #fff;
+        }
+        .cart-icon-display {
+            display: block !important;;
+        }
+        .cart-display {
+            display: none;
+        }
     }
 }

@@ -10856,13 +10856,27 @@ a.text-highlight:hover, a.text-highlight:focus {
   }
 }
 
-.navbar .carts {
-  padding-left: 49px;
-}
-
 .navbar .active {
   color: #3F5D45;
-  border-bottom: 1px solid #3F5D45;
+  background-color: #EAF0ED;
+}
+
+.navbar .cart-icon-display {
+  display: none !important;
+}
+
+@media (min-width: 992px) {
+  .navbar .active {
+    color: #3F5D45;
+    border-bottom: 1px solid #3F5D45;
+    background-color: #fff;
+  }
+  .navbar .cart-icon-display {
+    display: block !important;
+  }
+  .navbar .cart-display {
+    display: none;
+  }
 }
 
 .header .bg-index-image {
@@ -10986,7 +11000,7 @@ a.text-highlight:hover, a.text-highlight:focus {
 }
 
 .cart .image-size {
-  max-width: 210px;
+  max-width: 200px;
 }
 
 .cart .delete-display {

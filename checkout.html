@@ -26,17 +26,20 @@
     
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary" href="index.html">首頁</a>
+                    <li class="nav-item text-center">
+                        <a class="nav-link text-secondary" href="index.html">首頁 <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item text-center">
                         <a class="nav-link text-secondary" href="products.html">早餐</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item text-center">
                         <a class="nav-link text-secondary" href="login.html">登入</a>
                     </li>
-                    <li class="d-flex align-items-center">
-                        <a class="carts" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                    <li class="d-flex align-items-center cart-icon-display active">
+                        <a class="nav-link text-primary" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                    </li>
+                    <li class="nav-item text-center cart-display active">
+                        <a class="nav-link text-primary" href="cart.html">購物車</i></a>
                     </li>
                 </ul>
             </div>
@@ -45,7 +48,7 @@
             <div class="row checkout">
                 <div class="col-lg-8 bg-primary p-5 mb-3">
                     <div class="row no-gutters">
-                        <div class="col-6 h3 text-white">訂購人資訊</div>
+                        <div class="col-6 h4 text-white">訂購人資訊</div>
                         <div class="col-6">
                             <div class="text-white steps"></div>
                             <div class="text-white d-flex justify-content-between" style="position: relative">
