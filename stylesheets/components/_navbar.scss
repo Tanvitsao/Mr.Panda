@@ -4,7 +4,7 @@
         background-color: $light;
     }
     .cart-icon-display {
-        display: none !important;
+        display: none !important; 
     }
     @media (min-width: 992px) {
         .active {
@@ -13,7 +13,7 @@
             background-color: #fff;
         }
         .cart-icon-display {
-            display: block !important;;
+            display: block !important;
         }
         .cart-display {
             display: none;
